@@ -1,0 +1,42 @@
+#showProducts {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+.card {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    height: 500px;
+    width: 20% ;
+    background-color: rgb(243, 147, 30);
+    color: #fff;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+.im{
+    height: 50%;
+    width: 100%;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.im img {
+    width: 100%;
+    height: 90%;
+    border-radius: 4px;
+}
+.bran, .ta, .des, .pric {
+    margin: 5px 0;
+}
+.pric {
+    font-weight: bold;
+    color: rgb(75, 25, 237);
+}
+span {
+    font-weight: bold;
+}
